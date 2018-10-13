@@ -1,1 +1,2 @@
-# Bankers-algorithm
+# SEMAPHORE
+# PROCESS
