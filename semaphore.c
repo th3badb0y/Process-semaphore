@@ -34,6 +34,6 @@ main()
 	printf("Value after unlocking is %d\n",val1);
 	
 	if((semctl(sid,0,IPC_RMID) == 0))
-	printf("Closed the semaphore\n");
+	printf("Close the semaphore\n");
 }
 		
