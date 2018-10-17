@@ -3,6 +3,7 @@
 #include<sys/ipc.h>
 #include<sys/sem.h>
 #include<error.h>
+//program for semaphore creation
 main()
 {
 	int sid,val,val1;
