@@ -10,10 +10,10 @@ main()
  	{
  		for(i=0;i<3;i++)
  			{
- 				printf("\n Child process is running,pid=%d,ppid=%d",getpid(),getppid());
+ 				printf("\n child process is running,pid=%d,ppid=%d",getpid(),getppid());
  				sleep(2);
  			}
- 			printf("\n Child Exited\n");
+ 			printf("\n child Exited\n");
  			sleep(2);
  	}
  	else if(n>0)
