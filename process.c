@@ -5,7 +5,7 @@ main()
 {
  	int i,n;
  	printf("\n pid=%d, ppid=%d",getpid(),getppid());
- 	p=fork();
+ 	p=fork();//PROCESS CREATION
  	if(n == 0)
  	{
  		for(i=0;i<3;i++)
